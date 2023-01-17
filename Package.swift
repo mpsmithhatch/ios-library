@@ -71,6 +71,7 @@ let package = Package(
                 dependencies: [.target(name: "AirshipBasement")],
                 path: "Airship/AirshipCore",
                 exclude: ["Info.plist",
+                          "Source/AirshipCoreResources.swift",
                           "Tests"],
                 sources : ["Source"],
                 resources: [
